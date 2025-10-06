@@ -1,4 +1,4 @@
-/* ****************************************
+/* *************************************
 CONTROL
 **************************************** 
 */ 
@@ -34,9 +34,11 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
     padding-left: 100px;
     padding-right: 100px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .button{
@@ -44,6 +46,15 @@ body{
     justify-content: center;
     align-items: flex-end;
     width: 70px; 
+    border-radius: 20px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+p {
+    line-height: 49px;
+    font-size: 28px;
+    margin-bottom: 40px;
 }
 
 /* 
@@ -56,17 +67,32 @@ TOP NAVIGATION BAR
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 50px;
     padding-left: 50px;
     padding-right: 50px;
 }
 
 .navbar-card{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    flex-direction: row;
     align-items: center;
     width: 80%;
-    min-height: 30px; 
+}
+
+ul {
+    display: inline-flex;
+    list-style: none;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+li{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
 }
 
 .width-calc1part-of4{
@@ -91,6 +117,7 @@ MAIN
     max-width: 70%; 
     margin-top: 20px;
     margin-bottom: 20px; 
+    ;
 }
 .main-bg-img{
     background-image: url('/img/small-img/jumbo.png');
@@ -107,8 +134,7 @@ COMMON SECTIONS 1,2,3
     display: flex;
     justify-content: center;
     align-items: center;
-    width: calc((100% / 3 ) *2);
-    height: 150px; 
+    width: calc((100% / 3 ) *2); 
 }
 
 .card-right{
@@ -116,7 +142,6 @@ COMMON SECTIONS 1,2,3
     justify-content: center;
     align-items: center;
     width: calc((100% / 3) *1);
-    height: 150px;
 }
 
 /* 
@@ -125,8 +150,7 @@ SECTION 4
 **************************************** 
 */
 .card{
-    width: 100%;
-    border-style: dashed; 
+    width: 100%; 
 }
 
 /* 
@@ -182,6 +206,10 @@ FOOTER
 UTILITIES
 **************************************** 
 */
+.white.txt{
+    color: white;
+}
+
 .height-50{
     height: 20px;
 }
@@ -204,10 +232,10 @@ UTILITIES
 }
 
 .bg-navbar{
-    background-color: lightblue;
+    background-color: rgb(32, 90, 226);
 }
 .bg-purple{
-    background-color: rgb(74, 44, 158);
+    background-color: rgb(50, 107, 230);
 }
 .bg-pink{
     background-color: rgb(207, 97, 229);
