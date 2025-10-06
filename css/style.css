@@ -34,7 +34,7 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    /* align-items: center; */
+    align-items: center;
     padding-left: 100px;
     padding-right: 100px;
     padding-top: 30px;
@@ -52,8 +52,8 @@ body{
 }
 
 p {
-    line-height: 49px;
-    font-size: 28px;
+    line-height: 45px;
+    font-size: 1.5rem;
     margin-bottom: 40px;
 }
 
@@ -114,10 +114,15 @@ MAIN
 **************************************** 
 */
 .card-main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     max-width: 70%; 
     margin-top: 20px;
-    margin-bottom: 20px; 
-    ;
+    margin-bottom: 20px;
+    text-align: center; 
+    color: white
+    
 }
 .main-bg-img{
     background-image: url('/img/small-img/jumbo.png');
@@ -135,14 +140,18 @@ COMMON SECTIONS 1,2,3
     justify-content: center;
     align-items: center;
     width: calc((100% / 3 ) *2); 
+    flex-direction: column;
 }
+
 
 .card-right{
     display: flex;
     justify-content: center;
     align-items: center;
     width: calc((100% / 3) *1);
+    flex-direction: column;
 }
+
 
 /* 
 ****************************************
