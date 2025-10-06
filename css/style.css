@@ -45,16 +45,30 @@ body{
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    width: 70px; 
     border-radius: 20px;
     padding-bottom: 5px;
     padding-top: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 1.5rem
+    
+}
+.small-button-width{
+    width: 300px;
+}
+.big-button-width{
+    width: 500px;
 }
 
 p {
     line-height: 45px;
     font-size: 1.5rem;
     margin-bottom: 40px;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
 }
 
 /* 
@@ -127,6 +141,10 @@ MAIN
 .main-bg-img{
     background-image: url('/img/small-img/jumbo.png');
     background-size:cover;
+}
+
+main div{
+    display: inline-block;
 }
 
 /* 
@@ -215,7 +233,7 @@ FOOTER
 UTILITIES
 **************************************** 
 */
-.white.txt{
+.white-txt{
     color: white;
 }
 
