@@ -1,0 +1,248 @@
+/* ****************************************
+CONTROL
+**************************************** 
+*/ 
+
+/* body {
+    background-color: aquamarine;
+}  */
+/* 
+
+
+****************************************
+RESET
+**************************************** 
+*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    /* padding: 0; */
+}
+
+/* 
+****************************************
+COMMON
+**************************************** 
+*/
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    width: 100%; 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 70px; 
+}
+
+/* 
+****************************************
+TOP NAVIGATION BAR
+**************************************** 
+*/
+
+.navbar-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.navbar-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    min-height: 30px; 
+}
+
+.width-calc1part-of4{
+    width: calc((100% / 4 ) * 1);
+}
+.width-calc2part-of4{
+    width: calc((100% / 4 ) * 2);
+}
+.align-left{
+    justify-content: start;
+}
+.align-right{
+    justify-content: end;
+}
+
+/* 
+****************************************
+MAIN 
+**************************************** 
+*/
+.card-main{
+    width: 70%; 
+    margin-top: 20px;
+    margin-bottom: 20px; 
+}
+
+/* 
+****************************************
+COMMON SECTIONS 1,2,3
+**************************************** 
+*/
+
+.card-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: calc((100% / 3 ) *2);
+    height: 150px; 
+}
+
+.card-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: calc((100% / 3) *1);
+    height: 150px;
+}
+
+/* 
+****************************************
+SECTION 4
+**************************************** 
+*/
+.card{
+    width: 100%;
+    border-style: dashed; 
+}
+
+/* 
+****************************************
+SECTION 5
+**************************************** 
+*/
+
+.mini-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: start;
+    height: 350px; 
+}
+.width-calc2part6{
+    width: 33.33%;
+}
+
+.width-calc1part6{
+    width: 16.67%
+}
+
+.border-styleB{
+    border-style: dashed;
+    color: rgb(0, 0, 0);
+}
+.border-styleW{
+    border-style: dashed;
+    color: white;
+}
+
+/* 
+****************************************
+FOOTER
+**************************************** 
+*/
+.footer-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: start;
+    height: 80px;
+    width: 100%; 
+}
+.footer-card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%; 
+    height: 60px; 
+}
+/* 
+****************************************
+UTILITIES
+**************************************** 
+*/
+.height-50{
+    height: 20px;
+}
+.height-150{
+    height: 150px;
+}
+.height-200{
+    height: 200px;
+}
+.height-350{
+    height: 350px;
+}
+.height-400{
+    height: 400px;
+}
+
+.margin-top-buttom-10{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.bg-navbar{
+    background-color: lightblue;
+}
+.bg-purple{
+    background-color: rgb(74, 44, 158);
+}
+.bg-pink{
+    background-color: rgb(207, 97, 229);
+}
+.bg-white{
+    background-color: white;
+}
+.bg-grey{
+    background-color: lightgray;
+}
+.bg-blue{
+    background-color: rgb(55, 150, 232);
+}
+.bg-peach{
+    background-color: rgb(243, 172, 183);
+}
+.bg-green{
+    background-color: rgb(54, 125, 54);
+}
+.bg-rose{
+    background-color: rgb(241, 102, 102);
+}
+.bg-teal{
+    background-color: rgb(32, 193, 193);
+}
+.bg-yellow{
+    background-color: rgb(245, 217, 78);
+}
+.bg-light-green{
+    background-color: rgb(119, 235, 222);
+}
+.bg-black{
+    background-color: rgb(38, 37, 37);
+}
+
+/* 
+****************************************
+*DEBUG
+**************************************** 
+*/
